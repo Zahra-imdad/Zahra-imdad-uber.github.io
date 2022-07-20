@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Earn Money by Driving or Get a Ride Now</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark text-white position-relative"
+    >
+      <div class="container-fluid px-5 py-1">
+        <a class="navbar-brand" href="#">Uber</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Company
+              </a>
+              <div
+                class="dropdown-menu rounded-0"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item text-secondary" href="#">Action</a>
+                <a class="dropdown-item text-secondary" href="#"
+                  >Another action</a
+                >
+
+                <a class="dropdown-item text-secondary" href="#"
+                  >Something else here</a
+                >
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Safety</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Help</a>
+            </li>
+          </ul>
+          <div class="my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fa fa-globe" aria-hidden="true"></i>
+                  <span class="pl-2">EN</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i class="fa fa-th" aria-hidden="true"></i>
+                  <span class="pl-2">Products</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <button
+                  class="btn text-white login"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasTop"
+                  aria-controls="offcanvasTop"
+                >
+                  Log in
+                </button>
+
+                <div
+                  class="offcanvas offcanvas-top"
+                  tabindex="-1"
+                  id="offcanvasTop"
+                  aria-labelledby="offcanvasTopLabel"
+                  style="height: 100vh"
+                >
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasTopLabel"></h5>
+                    <button
+                      type="button"
+                      class="btn-close text-dark"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <div class="">
+                      <div class="row gx-5 text-dark m-5 p-5">
+                        <div class="col-lg-6">
+                          <div
+                            class="card flex-row align-items-center border-0"
+                          >
+                            <div class="card-body">
+                              <h1 class="card-title">
+                                Sign in to drive & deliver
+                              </h1>
+                            </div>
+                            <div class="card-body-2">
+                              <i
+                                class="fa fa-arrow-right"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                          </div>
+                          <br />
+                          <hr />
+                        </div>
+
+                        <div class="col-lg-6">
+                          <div
+                            class="card flex-row align-items-center border-0 justify-content-evenly"
+                            style=""
+                          >
+                            <div class="card-body">
+                              <h1 class="card-title">Sign in to ride</h1>
+                            </div>
+                            <div class="card-body-2">
+                              <i
+                                class="fa fa-arrow-right"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                          </div>
+                          <br />
+                          <hr />
+                        </div>
+
+                        <div class="col-lg-6">
+                          <div
+                            class="card flex-row align-items-center border-0 justify-content-evenly"
+                            style=""
+                          >
+                            <div class="card-body">
+                              <h1 class="card-title">
+                                Sign in to order delivery with Uber Eats
+                              </h1>
+                            </div>
+                            <div class="card-body-2">
+                              <i
+                                class="fa fa-arrow-right"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                          </div>
+                          <br />
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <button
+                  class="btn btn-light rounded-pill text-dark"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasTop"
+                  aria-controls="offcanvasTop"
+                >
+                  Sign up
+                </button>
+
+                <div
+                  class="offcanvas offcanvas-top"
+                  tabindex="-1"
+                  id="offcanvasTop"
+                  aria-labelledby="offcanvasTopLabel"
+                  style="height: 100vh"
+                >
+                  <div class="offcanvas-header">
+                    <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+                    <button
+                      type="button"
+                      class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <div class="">
+                      <div class="row gx-5 text-dark m-5 p-5">
+                        <div class="col-lg-6">
+                          <div
+                            class="card flex-row align-items-center border-0"
+                          >
+                            <div class="card-body">
+                              <h1 class="card-title">
+                                Sign up to drive & deliver
+                              </h1>
+                            </div>
+                            <div class="card-body-2">
+                              <i
+                                class="fa fa-arrow-right"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                          </div>
+                          <br />
+                          <hr />
+                        </div>
+
+                        <div class="col-lg-6">
+                          <div
+                            class="card flex-row align-items-center border-0 justify-content-evenly"
+                            style=""
+                          >
+                            <div class="card-body">
+                              <h1 class="card-title">Create a rider account</h1>
+                            </div>
+                            <div class="card-body-2">
+                              <i
+                                class="fa fa-arrow-right"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                          </div>
+                          <br />
+                          <hr />
+                        </div>
+
+                        <div class="col-lg-6">
+                          <div
+                            class="card flex-row align-items-center border-0 justify-content-evenly"
+                            style=""
+                          >
+                            <div class="card-body">
+                              <h1 class="card-title">
+                                a rider account Order delivery with Uber Eats
+                              </h1>
+                            </div>
+                            <div class="card-body-2">
+                              <i
+                                class="fa fa-arrow-right"
+                                aria-hidden="true"
+                              ></i>
+                            </div>
+                          </div>
+                          <br />
+                          <hr />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- END NAV -->
+
+    <!-- BANNER -->
+    <div class="banner">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-lg-6 bg-light p-5">
+            <div class="head d-flex justify-content-around align-items-center">
+              <div class="ride d-flex align-items-center flex-column">
+                <img src="./img/car-front-outlined.svg" />
+                <h6 class="pt-3">Ride</h6>
+              </div>
+              <hr />
+
+              <div
+                class="drive d-flex align-items-center flex-column justify-content-center"
+              >
+                <img src="./img/Earn-filled.svg" />
+                <h6 class="pt-3">
+                  Drive or <span class="d-block text-center">deliver</span>
+                </h6>
+              </div>
+            </div>
+            <hr />
+            <h1 class="text-dark display-4 font-weight-bold">
+              Request a ride now
+            </h1>
+            <form class="pt-5">
+              <div class="form-group position-relative">
+                <i
+                  class="fa fa-circle-thin position-absolute"
+                  aria-hidden="true"
+                ></i>
+                <input
+                  type="text"
+                  name="pickup"
+                  placeholder="Enter pickup location"
+                  class="form-control py-2 px-5 rounded border-0 mb-2"
+                  id="loc"
+                />
+                <i
+                  class="fa fa-location-arrow position-absolute"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <div class="form-group position-relative">
+                <i
+                  class="fa fa-square-o position-absolute"
+                  aria-hidden="true"
+                ></i>
+                <input
+                  type="text"
+                  name="destination"
+                  placeholder="Enter destination"
+                  class="form-control py-2 px-5 rounded border-0"
+                  id="loc"
+                />
+              </div>
+              <br />
+              <button
+                type="submit"
+                class="btn bg-dark text-white border-0 rounded-0 px-4 py-2 mr-2"
+              >
+                Request now
+              </button>
+              <button
+                type="submit"
+                class="btn bg-light border-0 rounded-0 px-4 py-2 schedule"
+              >
+                Schedule for later
+              </button>
+            </form>
+          </div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UBER FOR BUSINESS -->
+    <div class="py-5 business">
+      <div class="container">
+        <h3>Uber for Business</h3>
+        <br />
+        <p>Transform the way your company moves and feeds its people.</p>
+        <br />
+        <button class="btn bg-dark text-white px-4 py-3 rounded-0">
+          See how
+        </button>
+      </div>
+    </div>
+
+    <!-- RIDE WITGH UBER -->
+    <div class="container py-5" id="ride">
+      <h2>Ride with Uber</h2>
+
+      <div class="row py-5 px-2">
+        <div class="col-lg-6">
+          <div
+            class="card flex-row align-items-center border-0 justify-content-center"
+            style="max-width: 620px"
+          >
+            <img
+              src="./img/Auto-150X150p4x.webp"
+              class="card-img-top"
+              height="150px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="card-title">Uber Auto</h3>
+              <p class="card-text">
+                Get affordable Uber Auto rides with no haggling. Request Uber
+                Auto and ride comfortably around your city.
+              </p>
+            </div>
+            <div class="card-body">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div
+            class="card flex-row align-items-center border-0"
+            style="max-width: 620px"
+          >
+            <img
+              src="./img/Moto-150X150p4x.png"
+              class="card-img-top"
+              height="150px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="card-title">Uber Auto</h3>
+              <p class="card-text">
+                Get affordable Uber Auto rides with no haggling. Request Uber
+                Auto and ride comfortably around your city.
+              </p>
+            </div>
+            <div class="card-body">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div
+            class="card flex-row align-items-center border-0"
+            style="max-width: 620px"
+          >
+            <img
+              src="./img/Uber_Rent_Logo_Angle04_050622-01.png"
+              class="card-img-top"
+              height="150px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="card-title">Uber Auto</h3>
+              <p class="card-text">
+                Get affordable Uber Auto rides with no haggling. Request Uber
+                Auto and ride comfortably around your city.
+              </p>
+            </div>
+            <div class="card-body">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div
+            class="card flex-row align-items-center border-0"
+            style="max-width: 620px"
+          >
+            <img
+              src="./img/Intercity-150X150p4x.png"
+              class="card-img-top"
+              height="150px"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="card-title">Uber Auto</h3>
+              <p class="card-text">
+                Get affordable Uber Auto rides with no haggling. Request Uber
+                Auto and ride comfortably around your city.
+              </p>
+            </div>
+            <div class="card-body">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOCUSED ON SAFETY -->
+    <div class="container">
+      <h2>Focused on safety, wherever you go</h2>
+
+      <div class="row row-cols-1 row-cols-md-2 g-4 py-5">
+        <div class="col-lg-6">
+          <div class="card border-0">
+            <img src="./img/driver.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Our commitment to your safety</h5>
+              <p class="card-text">
+                With every safety feature and every standard in our Community
+                Guidelines, we're committed to helping to create a safe
+                environment for our users.
+              </p>
+              <br />
+              <a
+                href="#"
+                class="text-dark text-decoration-none pb-2 border-bottom border-secondary"
+                >Read about our Community Guidelines</a
+              >
+              <a
+                href="#"
+                class="text-dark text-decoration-none pb-2 border-bottom border-secondary ml-3"
+                >See all safety features</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card border-0">
+            <img src="./img/cars.webp" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Setting 10,000+ cities in motion</h5>
+              <p class="card-text">
+                The app is available in thousands of cities worldwide, so you
+                can request a ride even when you’re far from home.
+              </p>
+              <br />
+              <a
+                href="#"
+                class="text-dark text-decoration-none pb-2 border-bottom border-secondary"
+                >View all cities</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ANOTHER SECTION -->
+      <div class="another-sect py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 py">
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="./img/person-multiple-outlined.svg"
+                class="section-img m-2"
+                alt="..."
+                height="30px"
+                width="30px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">About us</h5>
+                <p class="card-text">
+                  Find out how we started, what drives us, and how we’re
+                  reimagining how the world moves.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="text-dark text-decoration-none pb-2 border-bottom border-secondary"
+                  >Learn more about Uber</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="./img/document-outlined.svg"
+                class="section-img m-2"
+                alt="..."
+                height="30px"
+                width="30px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Newsroom</h5>
+                <p class="card-text">
+                  See announcements about our latest releases, initiatives, and
+                  partnerships.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="text-dark text-decoration-none pb-2 border-bottom border-secondary"
+                  >Go to Newsroom</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img
+                src="./img/home-outlined.svg"
+                class="section-img m-2"
+                alt="..."
+                height="30px"
+                width="30px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Global citizenship</h5>
+                <p class="card-text">
+                  Read about our commitment to making a positive impact in the
+                  cities we serve.
+                </p>
+                <br />
+                <a
+                  href="#"
+                  class="text-dark text-decoration-none pb-2 border-bottom border-secondary"
+                  >See our partnerships</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- DOWNLOAD -->
+    <div id="download">
+      <div class="container py-5">
+        <h2>There’s more to love in the apps</h2>
+
+        <div class="row py-5">
+          <div class="col-lg-6">
+            <div
+              class="card flex-row align-items-center border-1 justify-content-center p-4"
+              style="max-width: 620px"
+            >
+              <img
+                src="./img/uber-arrow.webp"
+                class="card-img-top"
+                height="150px"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Download the Driver App</h3>
+              </div>
+              <div class="card-body">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div
+              class="card flex-row align-items-center border-1 justify-content-center p-4"
+              style="max-width: 620px"
+            >
+              <img
+                src="./img/uber.png"
+                class="card-img-top"
+                height="150px"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-title">Download the Uber App</h3>
+              </div>
+              <div class="card-body">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SIGNUP -->
+
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <div
+            class="card flex-row align-items-center border-0 border-bottom border-dark rounded-0 pb-2"
+          >
+            <div class="card-body px-0">
+              <h1 class="card-title">Signup to drive</h1>
+            </div>
+            <div class="card-body-2">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div
+            class="card flex-row align-items-center border-0 border-bottom border-dark rounded-0 pb-2"
+            style=""
+          >
+            <div class="card-body px-0">
+              <h1 class="card-title">Signup to ride</h1>
+            </div>
+            <div class="card-body-2">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+      <div class="container py-5">
+        <div class="row pt-3">
+          <div class="col-lg-12">
+            <a href="#" class="text-white h4 text-decoration-none">Uber</a>
+            <br /><br />
+            <p class="text-white">Visit help center</p>
+          </div>
+
+          <div class="col-lg-3 text-white pt-4">
+            <h5>Company</h5>
+            <ul class="list-unstyled">
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">About us</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Our offerings</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Newsroom</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Investors</a
+                >
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Blog</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Careers</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">All</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 text-white pt-4">
+            <h5>Products</h5>
+            <ul class="list-unstyled">
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Ride</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Drive</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Deliver</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Eat</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Uber for Business</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 text-white pt-4">
+            <h5>Global citizenship</h5>
+            <ul class="list-unstyled">
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Safety</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none"
+                  >Diversity and Inclusion</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 text-white pt-4">
+            <h5>Travel</h5>
+            <ul class="list-unstyled">
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Airports</a>
+              </li>
+              <li class="py-2">
+                <a href="#" class="text-white text-decoration-none">Cities</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 text-white pt-4">
+            <i class="fa fa-facebook-official pr-4" aria-hidden="true"></i>
+            <i class="fa fa-twitter pr-4" aria-hidden="true"></i>
+            <i class="fa fa-youtube-play pr-4" aria-hidden="true"></i>
+            <i class="fa fa-linkedin-square pr-4" aria-hidden="true"></i>
+            <i class="fa fa-instagram pr-4" aria-hidden="true"></i>
+          </div>
+
+          <div class="col-lg-5 text-white pt-4">
+            <i class="fa fa-globe pr-4" aria-hidden="true">
+              <span class="pl-2">English</span></i
+            >
+            <i class="fa fa-map-marker" aria-hidden="true">
+              <span class="pl-2">Karachi</span></i
+            >
+          </div>
+
+          <div class="col-lg-4 text-white pt-4">
+            <img src="./img/google-play.svg" class="img-fluid download-btn" />
+            <img src="./img/app-store.svg" class="img-fluid download-btn" />
+          </div>
+        </div>
+
+        <div class="row pt-4">
+          <div class="col-lg-8 text-white-50">
+            <p>&copy; 2022 Uber Technologies Inc.</p>
+          </div>
+          <div class="col-lg-4">
+            <a href="#" class="text-white-50 text-decoration-none pr-3"
+              >Privacy</a
+            >
+            <a href="#" class="text-white-50 text-decoration-none pr-3"
+              >Accessibility</a
+            >
+            <a href="#" class="text-white-50 text-decoration-none pr-3"
+              >Terms</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
